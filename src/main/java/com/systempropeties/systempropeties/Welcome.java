@@ -8,7 +8,7 @@ public class Welcome {
 
     @GetMapping("/")
     public String welcome() {
-        return "Halo Person";
+        return "Halo Person, you can create key value";
     }
 
 }
